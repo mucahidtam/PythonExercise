@@ -1,0 +1,9 @@
+x,y,z,sum=1,1,0,0
+while z<4000000:
+  if z%2==0:
+    sum +=z
+    
+z=x+y
+x,y=y,z
+
+print (sum)
